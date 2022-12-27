@@ -1,0 +1,98 @@
+list methods
+
+--> append()
+
+The append() method is used to add elements at the end of the list.
+This method can only add a single element at a time.
+To add multiple elements, the append() method can be used inside a loop.
+
+
+--> extend()
+The extend() method is used to add more than one element at the end of the list.
+Although it can add more than one element, unlike append(), it adds them at the end of the list like append().
+
+
+--> sort()
+
+The sort method sorts the list in ascending order.
+This operation can only be performed on homogeneous lists, i.e. lists having elements of similar type
+
+--> insert(value,index)
+
+The insert() method can add an element at a given position in the list. Thus, unlike append(),
+it can add elements at any position, but like append(), it can add only one element at a time.
+This method takes two arguments.
+The first argument specifies the position, and the second argument specifies the element to be inserted.
+
+
+--> remove()
+
+The remove() method is used to remove an element from the list.
+In the case of multiple occurrences of the same element, only the first occurrence is removed.
+
+
+--> pop()
+
+The method pop() can remove an element from any position in the list.
+The parameter supplied to this method is the index of the element to be removed.
+
+--> slice()
+
+Start:Stop:Step
+
+The slice operation is used to print a section of the list.
+The slice operation returns a specific range of elements.
+It does not modify the original list.
+
+--> reverse()
+
+The reverse() operation is used to reverse the elements of the list.
+This method modifies the original list.
+To reverse a list without modifying the original one, we use the slice operation with negative indices.
+Specifying negative indices iterates the list from the rear end to the front end of the list.
+
+--> len()
+
+The len() method returns the length of the list, i.e. the number of elements in the list.
+
+--> min() & max()
+
+The min() method returns the minimum value in the list.
+The max() method returns the maximum value in the list.
+Both the methods accept only homogeneous lists, i.e. lists having elements of similar type.
+
+--> count()
+
+The function count() returns the number of occurrences of a given element in the list.
+
+--> concatenate
+
+The concatenate operation is used to merge two lists and return a single list.
+The + sign is used to perform the concatenation.
+Note that the individual lists are not modified, and a new combined list is returned.
+
+--> multiply
+
+Python also allows multiplying the list n times.
+
+The resultant list is the original list iterated n times.
+
+--> index()
+
+The index() method returns the position of the first occurrence of the given element.
+It takes two optional parameters – the beginning index and the end index.
+These parameters define the start and end position of the search area on the list.
+When supplied, the element is searched only in the sub-list bound by the begin and end indices.
+When not supplied, the element is searched in the whole list.
+
+--> clear()
+
+This function erases all the elements from the list and empties them.
+
+
+--> Dictionary methods
+
+-->
+
+
+
