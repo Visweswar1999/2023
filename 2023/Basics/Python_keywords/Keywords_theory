@@ -1,0 +1,18 @@
+Python keywords are reserved words
+
+Python keywords have a special meaning associated with them and can’t be used for anything but those specific purposes.
+
+Each keyword is designed to achieve specific functionality.
+
+Python keywords are case sensitive
+
+There will be different types of keywords are available:
+
+Value Keywords: True, False, None.
+
+Operator Keywords: and, or, not, in, is
+
+Conditional Keywords: if, elif, else
+
+
+

@@ -1,0 +1,154 @@
+--> function is a block of code it will be executed when it is called.
+
+--> We can pass the parameters to a function.
+
+--> It can take arguments and returns the value.
+
+--> The benefits of the function is reusability of the code
+
+--> We use functions whenever we need to perform the same task multiple times without writing the same code again.
+
+--> Function improves efficiency and reduces errors because of the reusability of a code.
+
+--> Python has two type of functions.
+
+        --> built in function
+        --> User_defined functions
+
+    Bult_in functions:
+        --> built-in functions are pre-defined functions.
+        --> The Python interpreter has a number of functions and types built into it that are always available
+            ex: len,type()
+
+    User-defined functions:
+        --> Functions that we define ourselves to do certain specific task are referred as user-defined functions.
+        --> In Python, def keyword is used to declare user defined functions.
+        --> Then we need to pass the number of parameters as per your requirement. (Optional).
+
+            suntax: def function_name(parameter1,parameter2):
+                    # function body
+                    # logic need to be performed
+                return value
+
+    Example: for the user_defined functions to perform addition
+
+        def add(value1,value2):
+            addition = value1 +value2
+            return addition
+
+        a = add(2,3)
+        print(a)
+
+Creating a function without parameters:
+
+        def printing():
+            print("with out parameters")
+        printing() #calling the function
+
+Creating a function with parameters:
+
+#multiplication of two numbers by passing the parameters
+
+        def multiplication_of_num(num1,num2):
+            mul = num1*num2
+            return mul
+        a = multiplication_of_num(3,4)
+
+        print(a)
+
+# calling a function
+
+        def even_add(n):
+
+            if n % 2 == 0:
+                print("even number")
+
+            else:
+                print("odd number")
+
+        even_add(20)
+
+Global variables in a function:
+
+    --> A Global variable is a variable that declares outside of the function.
+    --> It is accessible in all functions of the same module.
+
+        #example of the global variable
+
+        global_variable = "this is global variable"
+
+        def fun1():
+            print(global_variable)
+
+        def fun2():
+            print(global_variable)
+
+        a = fun1()
+        b = fun2()
+
+Python Function Arguments:
+    Positional arguments
+    keyword arguments
+    Default arguments
+    Variable-length arguments
+
+    Positional arguments:
+        It takes same length of arguments
+        if we pass more than the required length of arguments it gives an error
+        We can call them as arguments or parameters both are same.
+        In the positional argument number and position of arguments must be matched
+
+    Keyword Arguments:
+        A keyword argument is an argument value, passed to function preceded by the variable name and an equals sign.
+        If we change the key and value also the result output will be same as the print statement we given.
+
+            #example for keyword arguments
+
+            def student(name,num):
+                print("hello",name,num)
+
+            result1 = student(name="viswa",num = "162")
+
+            result2 = student(num="322",name = "kiran")
+
+    Default Arguments:
+        Default arguments take the default value during the function call if we do not pass them.
+        We need to use the equal = operator to execute the program
+        If we pass a argument means it will be executed or else default argument will be executed.
+
+
+            #example for the default arguments
+
+            def show_details(name,salary="8000"):
+                print(name,salary)
+
+            a = show_details("viswa")
+            b = show_details("kiran","7000")
+
+    Variable length arguments:
+        --> passing a multiple number of arguments is called a variable length arguments
+        --> we need to declare a variable length of arguments with the * (asterisk) symbol
+
+            #example for variable len of arguements
+
+            def add(*n):
+                print(sum(n))
+
+            a = add(2,4,3,1)
+
+
+lamda functions:
+
+
+
+
+
+
+
+
+
+
+
+
+
+

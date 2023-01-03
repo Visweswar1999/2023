@@ -1,0 +1,194 @@
+Operators are special symbols that perform specific operations on one or more operands (values) and then return a result.
+
+--> Arithmetic operator
+--> Relational operators
+--> Assignment operators
+--> Logical operators
+--> Membership operators
+--> Identity operators
+--> Bitwise operators
+
+Arithmetic operator:
+    There are seven arithmetic operators we can use to perform different mathematical operations, such as:
+        + (Addition)
+        - (Subtraction)
+        * (Multiplication)
+        / (Division)
+        // Floor division)
+        ℅ (Modulus)
+        ** (Exponentiation)
+
+Addition operator +:
+
+    --> It adds two or more operands and gives their sum as a result
+
+            x = 10
+            y = 40
+            print(x + y)
+            # Output 50
+
+Subtraction - :
+
+    --> Use to subtracts the second value from the first value and gives the difference between them.
+
+            x = 10
+            y = 40
+            print(y - x)
+            # Output 30
+
+Multiplication * :
+
+     --> it is used to multiplies two or more values and gives their product as a result.
+
+            x = 2
+            y = 4
+            z = 5
+            print(x * y)
+            # Output 8 (2*4)
+            print(x * y * z)
+            # Outputx- 40 (2*4*5)
+
+Division / :
+
+    --> Divide the left operand (dividend) by the right one (divisor) and provide the result (quotient ) in a float value.
+
+            x = 2
+            y = 4
+            z = 8
+            print(y / x)
+            # Output 2.0
+            print(z / y / x)
+            # Output 1.0
+            # print(z / 0)  # error
+
+Floor division // :
+
+    --> It is used to divide one value by a second value and gives a quotient as a round figure value to the next smallest whole value.
+
+            x = 2
+            y = 4
+            z = 2.2
+
+            # floor division to get result as integer
+            print(y // x)
+            # Output 2
+
+            # normal division
+            print(y / z)  # 1.81
+
+            # floor division.
+            # Result as float because one argument is float
+            print(y // z)  # 1.0
+
+Modulus ℅ :
+
+    --> Modulus operator divides one value by a second and gives the remainder as a result.
+
+            x = 15
+            y = 4
+
+            print(x % y)
+            # Output 3
+
+Exponent ** :
+
+    --> use it as a shortcut to calculate the exponential value.
+
+        num = 2
+        # 2*2
+        print(num ** 2)
+        # Output 4
+
+        # 2*2*2
+        print(num ** 3)
+        # Output 8
+
+
+Relational operators:
+
+    --> It performs a comparison between two values.
+    --> It returns a boolean  True or False depending upon the result of the comparison.
+
+            > (Greater than)
+            < (Less than)
+            == (Equal to)
+            != (Not equal to)
+            >= (Greater than or equal to)
+            <= (Less than or equal to)
+
+>   It returns True if the left operand is greater than the right
+
+        x = 10
+        y = 5
+        z = 2
+
+        # > Greater than
+        print(x > y)  # True
+        print(x > y > z)  # True
+
+
+
+<   It returns True if the left operand is less than the right
+
+
+       print(y < x)  # True
+
+
+==  It returns True if both operands are equal
+
+        # Equal to
+        print(x == y)  # False
+        print(x == 10)  # True
+
+
+!=  It returns True if both operands are equal
+
+        # != Not Equal to
+        print(x != y)  # True
+        print(10 != x)  # False
+
+
+>=  It returns True if the left operand is greater than or equal to the right
+
+        # >= Greater than equal to
+        print(x >= y)  # True
+        print(10 >= x)  # True
+
+
+<=  It returns True if the left operand is less than or equal to the right
+
+
+        # <= Less than equal to
+        print(x <= y)  # False
+        print(10 <= x)  # True
+
+Assignment operators:
+
+Assignment operators are used to assigning value to the variable.
+
+    = (Assign)
+    += (Add and assign)
+    -= (Subtract and assign)
+    *= (Multiply and assign)
+    /= (Divide and assign)
+    %= (Modulus and assign)
+    **= (Exponentiation and assign)
+    //= (Floor-divide and assign)
+
+Logical operators :
+
+Python has three logical operators.
+All logical operator returns a boolean value True or False depending on the condition in which it is used.
+
+
+and (Logical and): 	The logical and operator returns True if both expressions are True. Otherwise, it will return. False.
+
+
+
+or (Logical or) : True if either of the operands is True
+
+not (Logical not) : True if the operand is False
+
+
+
+
