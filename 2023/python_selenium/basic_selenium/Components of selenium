@@ -1,0 +1,31 @@
+we will be having the four types of selenium components
+
+    --> selenium IDE
+    --> selenium RC
+    --> selenium webdriver
+    --> selenium grid
+
+Selenium IDE:
+
+    --> Selenium IDE stands for the selenium integrated development environment.
+    --> Selenium IDE began being actively maintained in 2018.
+    --> it is mainly used for the fire-fox ad on and chrome plugin.
+    --> It doesn’t extend the support to mobile-based testing like iPhone/Android testing.
+    --> It allows for recording, editing and debugging of functional tests
+
+Selenium RC:
+    --> it stands for selenium remote controller
+    --> The selenium rc code was written in java that accepts the commands from the http
+    --> RC makes it possible to write automated tests for a web application in any programming language
+    --> allows for better integration of Selenium in existing unit test frameworks.
+
+Selenium webdriver:
+
+
+
+
+Selenium Grid:
+
+
+
+

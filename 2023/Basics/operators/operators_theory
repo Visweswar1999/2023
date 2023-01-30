@@ -1,7 +1,7 @@
 Operators are special symbols that perform specific operations on one or more operands (values) and then return a result.
 
 --> Arithmetic operator
---> Relational operators
+--> Relational operators or comparison operator
 --> Assignment operators
 --> Logical operators
 --> Membership operators

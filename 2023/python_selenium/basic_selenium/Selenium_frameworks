@@ -1,0 +1,37 @@
+
+1. Data-driven Framework In Selenium:
+
+This is one of the most popular types of frameworks in Selenium.
+It involves separating data sets from the test case.
+
+The main purpose of this separation process is to enable developers to modify test cases easily for any particular functionality without changing the code or disturbing the datasets.
+
+The test cases and suites are retrieved from external files like Excel, .csv, .xml, or some database tables. After the data sets are transformed into external files, they are imported into the automation testing tool.
+
+The challenge presents itself when the test framework uses a higher number of datasets as input.
+
+In this case, it can get tricky for developers to modify values in the script each time developers have to conduct the test.
+
+This is why datasets have to be separated from the original script. With this framework, testers can dedicate a single test for all the datasets with ease without reworking the code.
+
+2. Keyword-driven Framework In Selenium:
+As the name suggests, the primary objective of the keyword-driven framework in Selenium is to accelerate automated testing by separating keywords. The keywords are strategically segregated for a common set of functions and instructions. The instructions that are to be performed are specified in an external file like an Excel sheet. The best part is that developers have all the control when it comes to specifying the functionalities that are to be tested.
+
+Keywords are crucial when promoting code functionality. They receive parameters and provide developers with accurate outputs. Testers often have to put extra effort into rewriting codes from some parts of the script if the code has to manage complex functionality.
+
+Here is where keywords come to the rescue. They are written separately from the original script to create relevant functions. These keywords which are placed in an external file (Excel sheet), are called using the code. They allow testers to keep each of the functionalities separate in a table, where developers can alter each of them individually.
+
+3. Hybrid Framework In Selenium:
+An easy-to-use tool, the Hybrid framework in Selenium is the best of two dynamic worlds. How so? It is a method wherein developers get to leverage the benefits and capabilities of both the keyword-driven framework as well as the data-driven framework.It enables manual testers to create test cases simply with the help of keywords, test data, and an object repository. They do not have to create any coding scripts in the framework. To put it in the simplest sense, the hybrid-driven framework is a product of both data-driven and keyword-driven frameworks.
+
+Much like the data-driven framework, it also uses the same code for different datasets. Similar to the keyword-driven framework, it is a tool that uses diverse keywords and datasets. Another similarity is that the inputs and the functions are stored in separate files.
+
+4. Linear Scripting Framework:
+Also known as the ‘Record and Playback’, this one is a generic Selenium automation framework. It is used to linearly test applications that are less complex in nature and smaller in scale. With this framework, tests are created and executed separately. Testers then play the scripts to carry out the tests. It also enables them to optimize each testing stage like browsing, navigating, user inputs, enforcing checkpoints, and such.
+
+The framework comes with multiple advantages like quicker generation of test scripts. The best part about working with the linear scripting framework is that testers do not need to have any prior coding knowledge needed.
+
+5. Modular Testing Framework:
+This testing tool works wonders with massive applications. Here, module-wise test scripts are created so that this extensive application can be split into smaller, independent modules. The scripts of these modules can then be run individually. These independent test scripts can also be combined to make larger test scripts by using a master script if required.
+
+The framework is primarily designed to build an abstraction layer. This helps protect the master module from any disruptions, in case any changes are to be made in individual tests. One of the biggest advantages of the modular testing framework is that it makes for improved scalability. Moreover, the modules are easier to maintain as they are broken down to be tested individually. Testers can write test scripts independently.

@@ -1,0 +1,18 @@
+> Selenium 1
+    – Selenium 1 got released into the market in 2006
+    – Selenium 1 = Selenium IDE + Selenium RC + Selenium Grid
+
+> Selenium 2
+    – Selenium 2 got released into the market in 2011
+    – Selenium 2 = Selenium IDE + Selenium WebDriver 2.x + Selenium Grid
+    – Selenium WebDriver used native way to communicate with the browsers
+    – Selenium WebDriver reduced the need for starting an RC server before executing the scripts
+    – Support for Selenium RC scripts for their execution in Selenium WebDriver was provided
+
+> Selenium 3
+    – Selenium 3 got released into the market in 2016
+    – Selenium 3 = Selenium IDE + Selenium WebDriver 3.x + Selenium Grid
+    – Removed the support for Selenium RC scripts
+    – Selenium stopped supporting the FirefoxDriver and then moved the responsibilities to Mozilla company which started supporting the native drivers for Firefox i.e. GeckoDriver
+    – Selenium stopped supporting the SafariDriver too and Apple started supporting its own native driver SafariDriver for Selenium
+    – Microsoft started supporting EdgeDriver along with its previously supporting InternetExplorerDriver

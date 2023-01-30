@@ -1,0 +1,24 @@
+back                --> This method allows you to move one page back.
+
+close               --> This method will close the current window.
+
+create_web_element  --> This method will create a web element having a specific element_id.
+
+delete_all_cookies  --> It will help you delete all the cookies in the current session’s scope.
+
+add_cookie          --> This method is used to add cookies to the user’s current session.
+
+delete_cookie       --> It will only delete a single cookie based on the name.
+
+get_cookie          --> It will return a cookie if found, or else none.
+
+get_cookies         --> It will return a bunch of dictionaries, each corresponding to the cookies that are currently visible in the present session.
+
+execute_async_script--> It will execute JavaScript asynchronously in the current frame.
+
+execute_script      --> It will execute JavaScript synchronously in the current frame.
+
+forward             --> It will help you go one page forward.
+
+fullscreen_window   --> This method will invoke a ‘full screen’ operation specific to the window manager.
+
