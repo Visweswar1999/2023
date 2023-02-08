@@ -1,12 +1,13 @@
 #check the given number is prime or not
 
-user_input = 23
+num1 = 15
 
-for num in range(2,user_input):
-    if user_input%num == 0:
+for num in range(2,num1):
+    if num1%num == 0:
         print("its not an prime number")
         break
 
-    else:
-        print("its an prime number")
-        break
+else:
+    print("not an prime number")
+
+

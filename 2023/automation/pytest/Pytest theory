@@ -1,0 +1,8 @@
+# to run the test cases we need to use the py.test
+
+# by using the -k we can run the tests with the keyword names ("by giving the one word also it will be executed ")
+
+--> markers are grouping of the test cases to run the markers we need to use the -m and the name of the word
+
+
+

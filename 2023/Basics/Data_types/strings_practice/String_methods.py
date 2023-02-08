@@ -1,7 +1,39 @@
 # capitalize()	    --> Converts the first character to upper case
+
+# kiran --> Kiran
+
+# user_input = "naina"
+#
+# a = user_input.capitalize()
+# print("before using capitalie",user_input)
+# print("after capitalize",a)
+
 # casefold()        --> Converts string into lower case
+
+# char = "SANTHOSH"
+#
+# b = char.casefold()
+#
+# print(b)
+
 # center()	        --> Returns a centered string
+
+# a = "santhosh kiran"
+#
+# print(a)
+#
+# b = a.center(20)
+#
+# print(b)
+
+
 # count()	        --> Returns the number of times a specified value occurs in a string
+# a = "kiraiiin"
+#
+# b = a.count("i")
+#
+# print(b)
+
 # encode()      	--> Returns an encoded version of the string
 # endswith()	    --> Returns true if the string ends with the specified value
 # expandtabs()	    --> Sets the tab size of the string
@@ -95,43 +127,46 @@ print(b) '''
 
 '''
 
-user_input = "Encode method 𝖛𝖎𝖘𝖜𝖆"
+user_input = "the result is 𝖏𝖆𝖌𝖆𝖉𝖊𝖊𝖘𝖍"
+
+print(user_input)
 
 abc = user_input.encode()
 
 print(abc) '''
 
+
 # use of ends with method
 
-
 '''
-user_input = "visweswar pamujula"
+user_input = "kirana"
 
 a = user_input.endswith("a")
 print(a)
  
 '''
 
-
 #use of expand tab method
 
 
 '''
-abc = "visweswar pamujula"
-user_input = "visweswar\tpamujula"
 
-abc = user_input.expandtabs(4)
 
-print(abc)
-print(user_input)
-'''
+user_input = "kiran\tjagadeesh"
+
+abc = user_input.expandtabs(50)
+
+# print(abc)
+print(abc)'''
+
 
 #use of find method
 
 '''
-user_input = "Mahesh 123"
 
-a = user_input.find("1")
+user_input = "Mahesh sures6h ramhesh"
+
+a = user_input.find("s")
 
 print(a)
 
@@ -141,11 +176,11 @@ print(a)
 #use of format method
 
 
+# it will format the secified value
+
 '''
 
-# it will format the secified value 
-
-user_input = "Mahesh{number} "
+user_input = "Mahesh {number} "
 
 a = user_input.format(number = "4")
 
@@ -153,32 +188,34 @@ print(a)
 
 '''
 
+'''
 #use of index method
 
-'''
-user_input = "Mahesh"
+user_input = "Mahesh onv"
 
-a = user_input.index("h")
+a = user_input.index(" ")
 
 print(a)
+
 
 '''
 
 # use of alnum method
-'''
+
 #it will return true or false if all the charecters in the string is alfa numeric
 
-user_input = "Mahesh 12"
+'''
+user_input = "Mahesh"
 
 a = user_input.isalnum()
 
-print(a) '''
+print(a)
 
-
+'''
 #use of isalpha method
 
 '''
-user_input = "Mahesh12"
+user_input = "Mahesh 12"
 
 a = user_input.isalpha()
 

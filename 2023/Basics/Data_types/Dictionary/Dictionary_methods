@@ -1,0 +1,21 @@
+--> clear()
+
+--> copy ()
+
+--> from keys ()
+
+--> get ()
+
+--> items ()
+
+--> keys ()
+
+--> pop ()
+
+--> popitem()
+
+--> setdefault()
+
+--> update ()
+
+-->values()
