@@ -23,8 +23,6 @@ driver = webdriver.Chrome()
 #
 # driver.find_element(By.NAME,'ConfirmPasswd').send_keys('name')
 #
-#
-#
 # driver.find_element(By.XPATH,"//input[@type='checkbox']").click()
 #
 # time.sleep(5)
@@ -32,7 +30,6 @@ driver = webdriver.Chrome()
 # driver.find_element(By.XPATH,"//span[@jsname='V67aGc' and @class='c']").click()
 #
 # time.sleep(10)
-
 
 
 

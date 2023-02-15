@@ -29,28 +29,17 @@
 #         output.append(num)
 # print(output)
 
-
-#factorial of a number
+#
+# factorial of a number
 # 5 --> 5*4*3*2*1
+
+
 # num = 5
-
+#
 # temp = 1
-# for i in range(1,num+1):
-#     temp *= i
-# print(temp)
-    # if num-i:
-    #     print(num*num-1)
+#
+# for num in range(1,num+1):
+#     temp = temp*num
+#     print(temp)
 
-num = 15
 
-if num>1:
-
-    for i in range(2,num):
-        if (num%i) == 0:
-            print("not prime")
-            break
-
-        else:
-            print("prime")
-else:
-    print("not prime")

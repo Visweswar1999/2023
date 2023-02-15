@@ -1,39 +1,7 @@
 # capitalize()	    --> Converts the first character to upper case
-
-# kiran --> Kiran
-
-# user_input = "naina"
-#
-# a = user_input.capitalize()
-# print("before using capitalie",user_input)
-# print("after capitalize",a)
-
 # casefold()        --> Converts string into lower case
-
-# char = "SANTHOSH"
-#
-# b = char.casefold()
-#
-# print(b)
-
 # center()	        --> Returns a centered string
-
-# a = "santhosh kiran"
-#
-# print(a)
-#
-# b = a.center(20)
-#
-# print(b)
-
-
 # count()	        --> Returns the number of times a specified value occurs in a string
-# a = "kiraiiin"
-#
-# b = a.count("i")
-#
-# print(b)
-
 # encode()      	--> Returns an encoded version of the string
 # endswith()	    --> Returns true if the string ends with the specified value
 # expandtabs()	    --> Sets the tab size of the string
@@ -262,4 +230,19 @@ abc = user_input.isdigit()
 print(abc)
 
 '''
+
+
+#use of upper method
+
+# user_input = "im from india my name is suresh"
+#
+# a = user_input.split()
+#
+# for i in a:
+#     print(i)
+
+
+
+
+
 
