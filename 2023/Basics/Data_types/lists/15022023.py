@@ -14,19 +14,57 @@
 
 '''
 
-num1 = 23
-num2 = 12
+# num1 = 23
+# num2 = 12
 # print(num2)
 
 # num2 = num1 + 3
 
-num1 += 3
+# num1 += 3
 
 # num1 = num1 +3
 
-print(num1)
+# print(num1)
 
 # num1 = num1+3
+
+
+# set
+#dictitionary
+#tuple
+# --> diff betw list and tuple
+
+# user_input2 = [2,3,4,5,5]
+
+# user_input = (1,2,3,4,5,4,"hello",2.4)
+#
+# print(type(user_input))
+#
+# a = list(user_input)
+#
+# print(type(a))
+#
+# print(a)
+
+# user_input = [2,3,4,5,556,6]
+# print(type(user_input))
+# a = tuple(user_input)
+# print("after using the tuple method")
+# print(type(a))
+
+# a = "123"
+#
+# b = float(a)
+#
+# print(b)
+# print(type(b))
+
+#string  --> str
+#integer --> int
+#floating point numbers --> float
+
+
+
 
 
 

@@ -6,6 +6,8 @@
 
 --> Python was made available to the public in 1991.
 
+--> currently we are using Python version 3
+
 Python will be used in:
 
     Desktop Applications
@@ -24,7 +26,9 @@ Python will be used in:
 
     Artificial Intelligence Applications
 
-    IoT
+    IoT(internet of things) --> RasberryPY
+
+    Robotics
 
 --> Python can be used on a server to create web applications.
 
@@ -35,3 +39,15 @@ Python will be used in:
 --> Python can be used for rapid prototyping, or for production-ready software development.
 
 --> Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+
+python-2 --> print("hello world")
+
+python-3 -->  print "hello world"
+
+python2 --> string as default
+
+python3 --> Ascii
+
+
+
+

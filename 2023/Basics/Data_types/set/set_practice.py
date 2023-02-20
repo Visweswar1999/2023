@@ -1,5 +1,5 @@
-user_input = {1,2,1,2,1,2,12}
+user_input = {2,3,4,5,6,"kjg",2,3}
 
-print(user_input)
+
 
 

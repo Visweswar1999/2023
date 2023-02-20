@@ -43,3 +43,111 @@
 #     print(temp)
 
 
+
+
+# range --> (10)\\
+
+# a = [2,3,4,5,8,1,23,2]
+
+#for ele in a:
+
+
+# for i in range(1,11):
+#     # print(i)
+#     if i %2 == 0:
+#         print(i,"even")
+
+# a = [2,3,4,5,8,1,23,2]
+#
+# for z in a:
+#     if z %2 == 1:
+#         print(z)
+
+
+# a = [2,3,4,2,3,5,8,1,23,2,12,1]
+#
+# #[2,3,1]
+#
+# output = []
+#
+# for num in a:
+#     if num not in output:
+#         output.append(num)
+#         print(output)
+
+
+
+# a = [2,3,4,2,3,5,8,1,23,2,12,1]
+#
+# output = []
+#
+# for num in a:
+#     if num not in output:
+#         output.append(num)
+#         print(output)
+
+
+#syntax
+
+
+# while condition:
+#     statement
+
+
+# prime number
+
+# 1 ,2, 3, 5, 7, 17
+
+# num =  12
+#
+# for i in range(1,num):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

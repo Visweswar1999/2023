@@ -29,10 +29,54 @@ print(b/a)'''
 
 
 
-a = 3
-b = 4
+# a = 3
+# b = 4
 #a += b
 # b += a
 # print("value of a is", a)
 # print("value of b is ", b)
+
+
+'''
+>
+< 
+>= 
+<= 
+==
+!=
+'''
+
+'''
+
+12 
+
+15
+
+# the first number is even number 
+
+# Second number is odd number
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -64,14 +64,23 @@
 #     print("finally block is executed")
 
 
-#
-try:
-    num1 = 12
-    num2 = "abc"
-    print(num1/num2)
-except (ZeroDivisionError,TypeError):
-    print("This is except block")
 
+'''
+--> upper
+
+--> lower
+
+--> split
+
+--> capitalize
+
+'''
+
+
+user_input = "kiran is an indian"
+a = user_input.split()
+
+print(a)
 
 
 

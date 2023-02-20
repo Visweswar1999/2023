@@ -137,11 +137,13 @@ print(b)
 
 '''
 
+user_input = {"employee":"kiran",3:"ramu",2:"ramesh","somu":"mahesh","two":"jai","one":"hari"}
 
+#dict
 
-
-
-
+# user_input.update({"newkey":"new value"})
+#
+# print(user_input)
 
 
 
