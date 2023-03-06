@@ -15,10 +15,9 @@
 # time.sleep(2)
 #
 # a = driver.title
-
-# @pytest.Mark.one
+#
 # def test_chrome():
-#     assert a == "Google"
-
-
-
+#     assert a == "google"
+#
+#
+#

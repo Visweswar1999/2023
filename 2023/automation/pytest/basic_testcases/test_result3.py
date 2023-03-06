@@ -1,13 +1,14 @@
-# import pytest
+import pytest
+
+# a = 12
+# b = 12
 #
-# def test_output():
-#
-#     abc = 12
-#     bcd = 23
-#
-#     assert abc == bcd
+# def test_addion():
+#     assert a==b
 #
 #
-# def test_admain():
-#
-#     assert "kiran" == "KIRAN"
+# #assert assertion erro
+
+
+
+

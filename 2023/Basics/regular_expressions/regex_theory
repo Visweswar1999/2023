@@ -1,0 +1,45 @@
+--> Regular expressions stands for regex
+
+--> sequence of charecters used for pattern matching
+
+--> in python re is an inbuilt package
+
+--> To run any program using the regular expressions we need to import RE
+
+--> regular expressions mainly having the four functions
+
+    --> findall()
+    --> search()
+    --> split()
+    --> sub()
+
+--> In python we are having the MetaCharcters,SpecialSequences and sets
+
+--> Meta Characters:
+
+    --> []      --> A Set of Characters
+    --> \       --> Signals a special sequence (can also be used to escape special characters)
+    --> .       --> It will fill the remaing data
+    --> ^       --> Starts With
+    --> $       --> Ends With
+    --> *       --> Zero or more occurences
+    --> +       --> one or more occurences
+    --> ?       --> Zero or one ocuurence
+    --> {}      --> We need to mention the exactly how many specified number of occurennces are there
+    --> |       --> Either or
+    --> ()      --> Capture group or
+
+--> Sets:
+
+    --> [abc]       --> It will return weather the characters a,b,c are presented in the string.
+    --> [a-n]       --> It will return the lower case letters are presented in between a-n
+    --> [^abd]      --> It will return any charecter except a,b,d are presented
+    --> [0,2,4]     --> It will return a match any particular digit is presented from the given pattern
+    --> [0-9]       --> Returns a match for any digit ill get from 0-9
+    --> [0-6][0-8]  --> Returns a match starting from 00 -- 68
+    --> [a-zA-Z]    --> Returns a match any alphabetically contains the capital A-Z and small a-z
+
+--> Special Sequences:
+
+    --> \A --> 	It will returns a match if the specified characters are at the beginning of the string
+    --> \B -->

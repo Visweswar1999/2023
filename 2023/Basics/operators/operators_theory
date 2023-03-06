@@ -184,7 +184,6 @@ All logical operator returns a boolean value True or False depending on the cond
 and (Logical and): 	The logical and operator returns True if both expressions are True. Otherwise, it will return. False.
 
 
-
 or (Logical or) : True if either of the operands is True
 
 not (Logical not) : True if the operand is False

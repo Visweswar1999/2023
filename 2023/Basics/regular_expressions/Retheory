@@ -1,5 +1,0 @@
---> sequence of charecters used for pattern matching
-
---> This may having the meta charecters, sets, sequences
-
---> while using the regular expressions we need to call re module

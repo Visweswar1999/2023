@@ -10,7 +10,6 @@ def test_two():
     num2 = 10
     assert num1+2 == num2
 
-
 def test_output():
 
     a = 23

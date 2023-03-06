@@ -1,0 +1,7 @@
+--> Scope defines the accessibility of the python object.
+
+--> To access the particular variable in the code, the scope must be defined as it cannot be accessed from anywhere in the program.
+
+--> The particular coding region where variables are visible is known as scope.
+
+--> 

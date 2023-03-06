@@ -2,22 +2,18 @@ import time
 
 import selenium
 
-import time
-
 from selenium import webdriver
 
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-driver.implicitly_wait(10)
-
-driver.get("https://www.w3schools.com/")
-
 driver.maximize_window()
 
+driver.get("http://the-internet.herokuapp.com/")
 
-driver.find_element(By.XPATH,"//a[contains(text(),'Pro')]").click()
+driver.find_element(By.PARTIAL_LINK_TEXT,'A/B').click()
 
+print(driver.title)
 
-
+time.sleep(20)

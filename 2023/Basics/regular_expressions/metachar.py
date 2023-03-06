@@ -1,17 +1,16 @@
-import re
 
+import re
 
 #use of set symbol
 
-'''
+str = "hello gll il lol my word"
 
-str = "example for meta char"
-
-
-b = re.findall("or",str)
+b = re.findall("ramu|kumar",str)
 
 print(b)
 
-'''
+
+
+
 
 

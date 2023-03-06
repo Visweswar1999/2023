@@ -93,14 +93,50 @@
 # while condition:
 #     statement
 
-
 # prime number
 
 # 1 ,2, 3, 5, 7, 17
 
-# num =  12
+
+# list1 = [2,3,3,4,4]
+
+
+# for i in range(1,21):
+#     if i % 2 == 0:
+#         print(i,"even")
+#     else:
+#         print(i,"odd")
+
+# list1 = [2,4,1,11,4,2,3,3,52,3]
 #
-# for i in range(1,num):
+# for i in list1:
+#
+#     if i%2 == 0:
+#         print(i,"even")
+#
+#     else:
+#         print(i,"odd")
+
+# user_input = {1:"key",2:"value"}
+# for char in user_input:
+#     print(char)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

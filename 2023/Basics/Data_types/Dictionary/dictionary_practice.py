@@ -137,7 +137,7 @@ print(b)
 
 '''
 
-user_input = {"employee":"kiran",3:"ramu",2:"ramesh","somu":"mahesh","two":"jai","one":"hari"}
+# user_input = {"employee":"kiran",3:"ramu",2:"ramesh","somu":"mahesh","two":"jai","one":"hari"}
 
 #dict
 
@@ -147,17 +147,8 @@ user_input = {"employee":"kiran",3:"ramu",2:"ramesh","somu":"mahesh","two":"jai"
 
 
 
+user_input = {1:"value1",2:1.3,"key3":"value3"}
 
+a = user_input.values()
 
-
-
-
-
-
-
-
-
-
-
-
-
+print(a)

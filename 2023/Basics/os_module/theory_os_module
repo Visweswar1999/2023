@@ -1,0 +1,5 @@
+--> To get all operatios about the OS module we need to give the command of print(dir(os))
+
+--> To get the current working directory we need to use the os.getcwd()
+
+-->
