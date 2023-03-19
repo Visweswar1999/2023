@@ -9,8 +9,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
 #to import the chrome driver
-
-driver = webdriver.Chrome(ChromeDriverManager().install())
+#
+# driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #to import the firefox browser
 

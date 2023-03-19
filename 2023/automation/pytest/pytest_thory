@@ -1,0 +1,11 @@
+--> pytest -m
+
+--> pytest -k
+
+--> pytest file path
+
+--> pytest -v
+
+--> pytest -s
+
+-->

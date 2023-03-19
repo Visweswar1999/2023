@@ -1,15 +1,15 @@
-'''
+
 # Access modifiers in python
 #use of public method
-class Worker:
-    def __init__(self,name,work):
-        self.name = "viswa"
-        self.work = "painter"
-    def result(self):
-        print(self.name,self.work)
-obj1 = Worker("kiran","carpenter")
-print(obj1.work)
-'''
+# class Worker:
+#     def __init__(self,name,work):
+#         self.name = "viswa"
+#         self.work = "painter"
+#     def result(self):
+#         print(self.name,self.work)
+# obj1 = Worker("kiran","carpenter")
+# print(obj1.work)
+
 #use of private method
 
 # class Employee:
@@ -59,11 +59,7 @@ print(obj1.work)
 # a.output()
 
 
-
-
-
-
-
+#09-03-2023
 
 
 

@@ -4,5 +4,9 @@
 
 --> markers are grouping of the test cases to run the markers we need to use the -m and the name of the word
 
+--> test_name.py
+
+__> new_test.py
+
 
 

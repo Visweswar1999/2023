@@ -152,19 +152,12 @@ user_input.clear()'''
 
 
 
+user_input = [2,3,4,56,34,65,2,2,2,23,4]
 
 
+user_input.clear()
 
-
-
-
-
-
-
-
-
-
-
+print(user_input)
 
 
 

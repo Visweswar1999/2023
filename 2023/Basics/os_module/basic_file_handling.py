@@ -1,8 +1,6 @@
-import os
+# import os
 
 # print(dir(os),end = '')
-
-
 # a = os.chdir("C:\\Users\\Hp\\Desktop")
 
 # b = open("abc.txt",'r')
@@ -18,4 +16,34 @@ import os
 #     read_methods = vis.read()
 #     print(read_methods)
 
-print(os.getcwd())
+# print(os.getcwd())
+
+import  os
+
+# print(os.getcwd())
+
+
+os.chdir("C:\\Users\\Hp\\Desktop\\vis")
+
+# print(os.getcwd())
+
+# os.mkdir("new_two")
+# print(os.rename("123","1233"))
+# r will read the file
+# w will make the changes in the file
+#r+ will make read and
+
+# a = open("vis.txt","r+")
+#
+# for j in a:
+#     print(j)
+
+with open("vis.txt","w") as f:
+    a = f.write("hello world")
+    # print(va)
+
+
+
+
+
+

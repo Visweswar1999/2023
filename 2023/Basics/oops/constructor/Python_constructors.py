@@ -305,11 +305,26 @@ print(abc)
 #
 # abc.output("banglore",654)
 
-
-
-
-
-
+# class Student:
+#     def __init__(self,name,address,age,gender,ID,Section,bloodgroup):
+#         self.name = name
+#         self.adress = address
+#         self.age = age
+#         self.gender = gender
+#         self.id = ID
+#         self.section = Section
+#         self.blood = bloodgroup
+#     def Student_personaldetails(self):
+#         print(self.name,self.adress,self.gender,self.blood)
+#     def Student_school_details(self):
+#         print(self.name,self.age,self.id,self.section)
+#     def Alldetails(self):
+#         print("name",self.name,self.adress,self.age,self.gender,self.id,self.section,self.blood)
+#
+# Student1 = Student("ramu","banglore",23,"Male","24","A","B+")
+# Student2 = Student("kiran","hyd",20,"Male","2H","A","A+")
+# #print(personal_setails(Student2)
+# Student2.Alldetails()
 
 
 

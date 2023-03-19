@@ -121,6 +121,26 @@
 # for char in user_input:
 #     print(char)
 
+# a = [2,3,3,4,5,6]
+#
+# for num in a:
+#
+#     if num%2 ==1 :
+#
+#         print(num)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

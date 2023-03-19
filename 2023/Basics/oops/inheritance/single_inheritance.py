@@ -1,3 +1,4 @@
+
 # single inheritance
 #
 # parent class
@@ -52,7 +53,7 @@
 # object1 = Details("kiran",23)
 # object1.student_class()
 # object1.show()
-object1.details1()
+# object1.details1()
 #
 # '''
 # class Employee:
@@ -72,34 +73,85 @@ object1.details1()
 #             print(Employee)
 #
 # obj1 = Employee(number=23,name="kiran") '''
+
+
+
+# class Employee:
 #
+#     def __init__(self,name,id):
+#         self.name = name
+#         self.id = id
 #
+#     def show(self):
+#         print(self.name,self.id)
 #
+# class Organization(Employee):
 #
+#     def __init__(self,name,address):
+#         Employee.__init__(self,name,id)
+#         self.name = name
+#         self.address = address
 #
+#     def details_organization(self):
+#         print(self.name,self.address)
 #
+# child = Organization
+
+
+# class BaseClass:
+#     body of the base class
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# class Derivedclass(BaseClass):
+#     Body of the derived class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+
 Operators are special symbols that perform specific operations on one or more operands (values) and then return a result.
 
 --> Arithmetic operator
@@ -64,7 +65,7 @@ Division / :
 Floor division // :
 
     --> It is used to divide one value by a second value and gives a quotient as a round figure value to the next smallest whole value.
-
+    
             x = 2
             y = 4
             z = 2.2
@@ -104,7 +105,7 @@ Exponent ** :
         # Output 8
 
 
-Relational operators:
+Relational operators or comparision:
 
     --> It performs a comparison between two values.
     --> It returns a boolean  True or False depending upon the result of the comparison.

@@ -1,0 +1,3 @@
+driver.refresh() --> It will refresh the webpage
+
+driver.get("URL") --> we will get the website by using this link

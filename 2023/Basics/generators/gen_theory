@@ -1,0 +1,21 @@
+--> In the python we will use the generators
+
+--> in normal function we are using the return statemet in generators we will use the yield satement.
+
+--> def gen():
+        yield 5
+    abc = gen()
+    print(abc)
+
+--> if we run the above program means it will return the generator value.
+
+--> if we want to print the exact value means we need to use the __next__ function
+
+--> def gen():
+        yield 5
+    abc = gen()
+    print(abc.__next__())
+
+--> Return will terminate the function yield will be continuously running the program.
+
+-->

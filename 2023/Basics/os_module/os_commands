@@ -1,0 +1,18 @@
+print(dir(os))
+
+os.getcwd()
+
+os.mkdir()
+
+os.makedirs()
+
+os.chdir()
+
+os.rmdir()
+
+os.removedirs()
+
+os.rename("oldfile","new file")
+
+os.listdir()
+

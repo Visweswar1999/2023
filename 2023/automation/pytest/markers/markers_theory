@@ -1,0 +1,5 @@
+--> To create any marker we need to use the @pytest.mark.name
+
+--> TO run the markers we need to use the pytest -m name of the marker
+
+-->

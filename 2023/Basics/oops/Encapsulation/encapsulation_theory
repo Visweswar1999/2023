@@ -1,6 +1,7 @@
-
-
-
 --> In the Encapsulation we will be mainly having Access modifiers
 
     --> Access modifiers are Public,private and protected
+
+    --> self.name = name    --> public
+    --> self._name = name   --> protected
+    --> self.__name = name  --> private

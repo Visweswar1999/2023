@@ -18,6 +18,4 @@
 #
 # def test_chrome():
 #     assert a == "google"
-#
-#
-#
+

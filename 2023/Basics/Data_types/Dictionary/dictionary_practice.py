@@ -146,9 +146,19 @@ print(b)
 # print(user_input)
 
 
+user_input = {"one":1,"key2":"kiran",3:"mahesh","4":"mahi"}
 
-user_input = {1:"value1",2:1.3,"key3":"value3"}
+a = {6:"somu",7:"arjun"}
 
-a = user_input.values()
+user_input.update(a)
 
-print(a)
+print(user_input)
+
+
+
+
+
+
+
+
+

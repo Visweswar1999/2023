@@ -188,10 +188,21 @@
 # variable_lenghth(2,2,3,4,5,1,2)
 
 
-def add(a,b):
-    print()
+# def one(b,a=2,c=5):
+#
+#     print(a+b)
+#     print(a-c)
+#
+# one(2,3)
 
-add(2,3)
+# variable length arguments
+
+def add(*args):
+    print(sum(args))
+
+add(2,1,2,1,0,1)
+
+
 
 
 

@@ -37,7 +37,15 @@
 #     print("negitive number")
 
 
-
+# user_input = int(input("Enter the number: "))
+#
+# if user_input>0:
+#
+#     if user_input %2 == 0:
+#         print("The given number is even number ")
+#
+# else:
+#     print("The given number is negitive number")
 
 
 

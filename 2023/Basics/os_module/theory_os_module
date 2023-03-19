@@ -1,5 +1,25 @@
---> To get all operatios about the OS module we need to give the command of print(dir(os))
+--> OS module provides the functions that can intaract with the operating system.
+
+--> To get all operations about the OS module we need to give the command of print(dir(os))
 
 --> To get the current working directory we need to use the os.getcwd()
 
--->
+--> To change the directory we will use the os.chdir("path")
+
+--> to create the directory we will use the os.mkdir()
+
+--> to create the sub directory we will use the os.makedirs("directory/sub-directory")
+
+--> to remove the file we will use the os.rmdir()
+
+--> to remove the directory inside the directory we will use the os.removedirs()
+
+--> to rename the file we will use the command of os.rename("original","modified")
+
+
+
+
+
+
+file operations theory:
+

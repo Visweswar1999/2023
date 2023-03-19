@@ -68,22 +68,54 @@
 
 
 
-
-
-
 import selenium
 
-import time
+# import time
+#
+# from selenium import webdriver
+#
+# from selenium.webdriver.common.by import By
+#
+# driver = webdriver.Chrome()
+#
+# driver.maximize_window()
+#
+# driver.get("https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp")
+#
+# time.sleep(2)
+#
+# driver.find_element(By.ID,"firstName").send_keys("kiran")
+#
+# time.sleep(10)
 
-from selenium import webdriver
 
-from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome()
 
-driver.get("https://www.google.com/")
-time.sleep(2)
-print(driver.title)
+
+
+
+
+
+
+
+
+
+
+
+
+# import selenium
+#
+# import time
+#
+# from selenium import webdriver
+#
+# from selenium.webdriver.common.by import By
+#
+# driver = webdriver.Chrome()
+#
+# driver.get("https://www.google.com/")
+# time.sleep(2)
+# print(driver.title)
 
 
 
@@ -104,11 +136,59 @@ print(driver.title)
 # driver.find_element(By.CLASS_NAME,"VfPpkd-muHVFf-bMcfAe").click()
 # time.sleep(2)
 
-time.sleep(7)
+# time.sleep(7)
+#
+# #//tagname[@id = '']
+#
+# print(driver.title)
 
-#//tagname[@id = '']
+
+# import selenium
+#
+# import time
+#
+# from selenium import webdriver
+#
+# from selenium.webdriver.common.by import By
+#
+# driver = webdriver.Chrome()
+
+# driver.maximize_window()
+
+# driver.get("https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp")
+
+# driver.get("http://the-internet.herokuapp.com/")
+#
+# time.sleep(10)
+#
+# # driver.find_element(By.NAME,"firstName").send_keys("kiran")
+#
+# driver.find_element(By.PARTIAL_LINK_TEXT,"A/B ").click()
+#
+# # .click()
+#
+# time.sleep(10)
+
+
+
+
+import  selenium
+
+import time
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+driver.get("https://phptravels.org/login")
 
 print(driver.title)
+
+time.sleep(2)
+
+
+
+
 
 
 
