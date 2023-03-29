@@ -201,20 +201,94 @@ for i in range(n):
 '''
 
 
+'''
+* * * * 
+
+* * * * 
+
+* * * * 
+
+* * * *
+
+'''
+
+# num = 4
+#
+# for i in range(num): #  4 times
+#     for j in range(num):
+#         print("#",end = " ")
+#     print()
+
+'''
+* 
+* * 
+* * * 
+* * * *
+'''
+# num = 4
+#
+# for i in range(num):
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
 
 
 
+'''
+* * * *
+
+* * * 
+
+* * 
+
+*
+'''
+# num = 4
+#
+# for row in range(num):
+#     for column in range(num-row):
+#         print("*",end=" ")
+#     print()
+
+'''
+      *
+    * * 
+  * * *
+* * * *
+
+'''
+
+'''
+* * * * 
+
+* * * * 
+
+* * * * 
+
+* * * *
+
+* 
+* * 
+* * * 
+* * * *
+
+* * * *
+* * * 
+* * 
+*
+
+      *
+    * *
+  * * *
+* * * *
+'''
 
 
+try:
+    print(5/"kkr")
 
-
-
-
-
-
-
-
-
+except (TypeError,ZeroDivisionError):
+    print("Here type error occured")
 
 
 

@@ -77,15 +77,35 @@
 '''
 
 
-user_input = "kiran is an indian"
-a = user_input.split()
 
-print(a)
+# try:
+#     num1 = 23
+#     num2 = 25
+#
+# except ValueError:
+#     print("except block will be ececuted")
+#
+# except ZeroDivisionError:
+#     print("zero division error block will executed")
+#
+# except NameError:
+#     print("we are getting the name error")
+#
+# finally:
+#     print("finally block will be executed")
 
 
 
+list1 = [2,5,6,7]
 
+try:
+    print(list1[6])
 
+except (IndexError,ZeroDivisionError):
+    print("index block will be executed")
+
+# except ZeroDivisionError:
+#     print("zero division block will be executed")
 
 
 

@@ -2,3 +2,5 @@
 
 
 --> PIP--> python installation package
+
+--> pytest --html = report.html

@@ -43,3 +43,4 @@
 
     --> \A --> 	It will returns a match if the specified characters are at the beginning of the string
     --> \B -->
+    --> \b

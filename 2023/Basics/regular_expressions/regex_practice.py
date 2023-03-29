@@ -11,18 +11,12 @@
 # print(f"by using the search method {b}")
 # print(f"by using the sub method {c}")
 
-
 import re
 
-# variable = re.findall("pattern",*string)
-
-user_input = "India  EEEE is my country is and im living in 28088754785 india @"
+user_input = "im from india and im living in india 13987653245678 34 "
 
 a = re.findall("[a-zA-Z]",user_input)
-
-#  (3,4,5)(8,9)
-
-# (38,39,48,49,58,59)
+#
 
 print(a)
 

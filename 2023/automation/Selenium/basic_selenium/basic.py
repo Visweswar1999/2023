@@ -1,4 +1,5 @@
 # xpath --> //input[@type='text']
+import time
 
 # import selenium
 #
@@ -171,22 +172,25 @@ import selenium
 
 
 
-
-import  selenium
-
-import time
-
-from selenium import webdriver
-
-driver = webdriver.Chrome()
-
-driver.get("https://phptravels.org/login")
-
-print(driver.title)
-
-time.sleep(2)
-
-
+# import selenium
+#
+# import pytest
+#
+# from selenium import webdriver
+#
+# driver = webdriver.Chrome()
+#
+# driver.get("https://www.google.com/")
+#
+# driver.maximize_window()
+#
+# time.sleep(5)
+#
+# a = driver.title
+#
+# def test_google():
+#
+#     assert a == "Google"
 
 
 
